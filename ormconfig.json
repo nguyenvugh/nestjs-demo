@@ -1,0 +1,15 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5434,
+    "username": "admin",
+    "password": "mypassword",
+    "database": "first-nest",
+    "entities": ["dist/**/*.entity{ .ts,.js}"],
+    "migrations": ["dist/src/migrations/*{.ts,.js}"],
+    "migrationsTableName": "migrations_history",
+    "migrationsRun": true
+  }
+]
